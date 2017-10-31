@@ -6,6 +6,7 @@ import Order from './Order'
 import DirectionAlign from './DirectionAlign'
 import NestedGrid from './NestedGrid'
 import UniqueLayouts from './UniqueLayouts'
+import SpecificTags from './SpecificTags'
 
 export default {
   path: '/layouts',
@@ -46,6 +47,11 @@ export default {
       path: 'unique-layouts',
       component: UniqueLayouts,
       name: 'layouts.unique-layouts'
+    },
+    {
+      path: 'specific-tags',
+      component: SpecificTags,
+      name: 'layouts.specific-tags'
     }
   ]
 }

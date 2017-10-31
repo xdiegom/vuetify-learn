@@ -69,6 +69,10 @@ export default {
         {
           name: 'Unique Layouts',
           route: 'layouts.unique-layouts'
+        },
+        {
+          name: 'Specific Tags',
+          route: 'layouts.specific-tags'
         }
       ]
     }
