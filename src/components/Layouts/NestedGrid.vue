@@ -1,5 +1,11 @@
 <template>
 <v-layout row wrap>
+  <v-flex xs12>
+    <h5>Nested Grid</h5>
+      <v-card-text>
+        Grids can be nested, similar to other frameworks, in order to achieve very custom layouts.
+      </v-card-text>
+  </v-flex>
   <v-flex d-flex xs12 sm6 md4>
     <v-card color="purple" dark>
       <v-card-title primary class="title">Lorem</v-card-title>

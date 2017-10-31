@@ -4,6 +4,11 @@
   <v-layout row wrap>
     <v-flex lg12 md12 sm12 xs12>
       <h5>Order</h5>
+      <v-card-text>
+        You can control the ordering of grid items. As with offsets, you can set
+        different orders for different sizes. Design specialized screen layouts
+        that accommodate to any application.
+      </v-card-text>
     </v-flex>
     <v-flex xs6 order-lg2>
       <v-card dark tile flat color="error">

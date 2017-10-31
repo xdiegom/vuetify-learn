@@ -3,6 +3,10 @@
   <v-layout row wrap>
     <v-flex xs12>
       <h5>Direction and Align</h5>
+      <v-card-text>
+        Designate the direction and alignment in a variety of ways. All of the
+        available <code class="grey white--text darken-3">flex-box</code> api is available through intuitive helper props.
+      </v-card-text>
     </v-flex>
   </v-layout>
   <v-layout row justify-space-between>
