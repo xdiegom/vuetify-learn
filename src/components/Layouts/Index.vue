@@ -65,6 +65,10 @@ export default {
         {
           name: 'Nested grid',
           route: 'layouts.nested-grid'
+        },
+        {
+          name: 'Unique Layouts',
+          route: 'layouts.unique-layouts'
         }
       ]
     }

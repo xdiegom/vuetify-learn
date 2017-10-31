@@ -41,6 +41,11 @@ export default {
       path: 'nested-grid',
       component: NestedGrid,
       name: 'layouts.nested-grid'
+    },
+    {
+      path: 'unique-layouts',
+      component: UniqueLayouts,
+      name: 'layouts.unique-layouts'
     }
   ]
 }
