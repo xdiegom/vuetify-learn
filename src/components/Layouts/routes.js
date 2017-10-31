@@ -5,6 +5,7 @@ import RowColumnBased from './RowColumnBased'
 import Order from './Order'
 import DirectionAlign from './DirectionAlign'
 import NestedGrid from './NestedGrid'
+import UniqueLayouts from './UniqueLayouts'
 
 export default {
   path: '/layouts',
@@ -27,7 +28,7 @@ export default {
       name: 'layouts.order'
     },
     {
-      path: 'grid',
+      path: 'diralign',
       component: DirectionAlign,
       name: 'layouts.diralign'
     },
@@ -42,5 +43,4 @@ export default {
       name: 'layouts.nested-grid'
     }
   ]
-
 }
