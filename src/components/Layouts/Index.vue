@@ -13,11 +13,8 @@
     </v-layout>
     <v-layout grid-list-sm v-bind="binding">
       <v-flex v-for="r in routes" :key="r.name">
-        <router-link
-                class="btn btn--flat red--text"
-                :to="{ name: r.route}"
-                :disabled="r.disabled">
-                {{r.name}}
+        <router-link class="btn btn--flat red--text" :to="{ name: r.route}" :disabled="r.disabled">
+          {{r.name}}
         </router-link>
       </v-flex>
     </v-layout>
@@ -40,8 +37,7 @@
 export default {
   data() {
     return {
-      routes: [
-        {
+      routes: [{
           name: 'Grid',
           route: 'layouts.grid',
           disabled: false
@@ -77,7 +73,9 @@ export default {
   computed: {
     binding() {
       const binding = {}
-      if (this.$vuetify.breakpoint.xsOnly) binding.column = true
+      if (this.$vuetify.breakpoint.xsOnly || this.$vuetify.breakpoint.smOnly) {
+        binding.column = true
+      }
 
       return binding
     }

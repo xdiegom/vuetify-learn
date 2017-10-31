@@ -4,6 +4,7 @@ import Offset from './Offset'
 import RowColumnBased from './RowColumnBased'
 import Order from './Order'
 import DirectionAlign from './DirectionAlign'
+import NestedGrid from './NestedGrid'
 
 export default {
   path: '/layouts',
@@ -34,6 +35,11 @@ export default {
       path: 'row-column-based',
       component: RowColumnBased,
       name: 'layouts.row-column-based'
+    },
+    {
+      path: 'nested-grid',
+      component: NestedGrid,
+      name: 'layouts.nested-grid'
     }
   ]
 
