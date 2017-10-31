@@ -7,6 +7,7 @@ import DirectionAlign from './DirectionAlign'
 import NestedGrid from './NestedGrid'
 import UniqueLayouts from './UniqueLayouts'
 import SpecificTags from './SpecificTags'
+import VuetifyBreakPoint from './VuetifyBreakPoint'
 
 export default {
   path: '/layouts',
@@ -52,6 +53,11 @@ export default {
       path: 'specific-tags',
       component: SpecificTags,
       name: 'layouts.specific-tags'
+    },
+    {
+      path: 'breakpoints',
+      component: VuetifyBreakPoint,
+      name: 'layouts.breakpoints'
     }
   ]
 }

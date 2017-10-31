@@ -73,6 +73,10 @@ export default {
         {
           name: 'Specific Tags',
           route: 'layouts.specific-tags'
+        },
+        {
+          name: 'Vuetify Breakpoints',
+          route: 'layouts.breakpoints'
         }
       ]
     }
