@@ -1,5 +1,4 @@
 <template>
-<div>
   <v-container grid-list-md fluid text-xs-center>
     <v-layout row>
       <v-flex xs1 sm1 md1 lg1>
@@ -23,8 +22,6 @@
         </router-link>
       </v-flex>
     </v-layout>
-  </v-container>
-  <v-container fluid grid-list-md text-xs-center>
     <v-layout class="pb-3" row>
       <v-flex lg12 md12 sm12 xs12>
         <v-card dark color="black--text white">
@@ -35,7 +32,6 @@
       </v-flex>
     </v-layout>
   </v-container>
-</div>
 </template>
 
 <script>
