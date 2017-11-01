@@ -1,13 +1,11 @@
 <template>
 <v-app>
-  <!-- <v-navigation-drawer enable-resize-watcher app></v-navigation-drawer>
-  <v-toolbar dark color="blue" app></v-toolbar> -->
   <main>
     <v-content>
       <router-view></router-view>
+      <v-footer app></v-footer>      
     </v-content>
   </main>
-  <v-footer app></v-footer>
 </v-app>
 </template>
 

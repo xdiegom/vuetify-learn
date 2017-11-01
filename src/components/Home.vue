@@ -1,18 +1,20 @@
 <template>
-<div>
-  <v-container>
-    <v-layout row wrap align-center justify-center class="h100">
-      <v-flex xs12 offset-xs3>
+
+<v-container fill-height>
+    <v-layout flex wrap align-center justify-center>
+      <v-flex xs12 class="text-xs-center">
         <h1>Hello to Vuetify</h1>
-      </v-flex>
-      <v-flex xs1>
-        <router-link class="btn primary--text" :to="{ name: 'layouts'}">Layouts</router-link>
+        <router-link tag="div" :to="{ name: 'layouts'}" exact>
+          <v-btn  flat color="primary">Layouts</v-btn>
+        </router-link>
       </v-flex>
     </v-layout>
-  </v-container>
-</div>
+</v-container>
+
 </template>
 
 <script>
+
 export default {}
+
 </script>
